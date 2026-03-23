@@ -18,7 +18,7 @@ class Solution {
                 if(map.get(ch)==1){
                     map.remove(ch);
                 } else {
-                   map.put(ch, map.getOrDefault(ch,0)-1);
+                   map.put(ch, map.get(ch)-1);
                 }     
             }
         }
